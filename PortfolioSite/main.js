@@ -60,12 +60,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const background = new THREE.TextureLoader().load('./bg.jpg');
+const background = new THREE.TextureLoader().load('/bg.jpg');
 scene.background = background;
 
 // Avatar
 
-const kyleTexture = new THREE.TextureLoader().load('./headshot.jpg');
+const kyleTexture = new THREE.TextureLoader().load('/headshot.jpg');
 
 const kyle = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: kyleTexture }));
 
