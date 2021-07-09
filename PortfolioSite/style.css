@@ -18,20 +18,6 @@ canvas {
   font-style: normal;
 }
 
-
-main {
-  width: 100vw;
-  color: white;
-  z-index: 99;
-  position: absolute;
-  width: 99%;
-  margin: 0px auto;
-  padding: 120px 0px;
-  
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
 h1, h2, h3, blockquote {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -63,6 +49,20 @@ canvas {
 
 
   /* for regular screens */
+
+  main {
+    width: 100vw;
+    color: white;
+    z-index: 99;
+    position: absolute;
+    width: 99%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
   header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
@@ -101,6 +101,20 @@ canvas {
 
   /* for medium screens */
   @media only screen and (max-width: 720px) {
+
+    main {
+      width: 100vw;
+      color: white;
+      z-index: 99;
+      position: absolute;
+      width: 98%;
+      margin: 0px auto;
+      padding: 120px 0px;
+      
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    
     header {
       background: var(--dark-bg);
       grid-column: 2 / span 8;
