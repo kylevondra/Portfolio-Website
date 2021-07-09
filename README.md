@@ -1,6 +1,5 @@
 # Portfolio-Website
+Portfolio Site made with Node and ThreeJS
 
-## Portfolio Site made with Node and ThreeJS
-
-# Build Instructions
+### Build Instructions
 idk yet lmao
