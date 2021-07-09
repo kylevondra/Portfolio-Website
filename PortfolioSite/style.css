@@ -62,6 +62,7 @@ canvas {
   }
 
 
+  /* for regular screens */
   header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
@@ -98,6 +99,7 @@ canvas {
     grid-column: 6 / 12;
   }
 
+  /* for medium screens */
   @media only screen and (max-width: 720px) {
     header {
       background: var(--dark-bg);
@@ -136,6 +138,7 @@ canvas {
     }
   }
 
+  /* for small screens */
   @media only screen and (max-width: 400px) {
     header {
       background: var(--dark-bg);
