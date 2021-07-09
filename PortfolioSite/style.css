@@ -47,6 +47,19 @@ canvas {
   left: 0;
 }
 
+  h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+
+  a, a:visited, a:active, a:hover {
+    color: var(--text-color);
+  }
 
 
   header {
@@ -85,16 +98,50 @@ canvas {
     grid-column: 6 / 12;
   }
 
-  h2, h3, h4, h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-    
-  }
+  @media only screen and (max-width: 720px) {
+    header {
+      background: var(--dark-bg);
+      grid-column: 2 / span 8;
+      font-size: 2.5rem;
+      padding: 2rem 1rem;
+      margin-bottom: var(--spacing);
+    }
   
-  p {
-    margin-top: 10px;
+    section {
+      grid-column: 2 /  span 8;
+      padding: 1rem;
+      background: var(--dark-bg);
+      font-size: 1.25rem;
+      line-height: 1.5;
+      margin-bottom: var(--spacing);
+    }
+  
+    blockquote {
+      margin: 0;
+      padding: 0;
+      grid-column: 2 / span 9;
+      margin-bottom: var(--spacing);
+    }
+  
+    blockquote p {
+      color: black;
+      background-color: white;
+      font-size: 4rem;
+      display: inline;
+      line-height: 1;
+    }
+  
+    .left {
+      grid-column: 2 / span 8;
+    }
   }
 
-  a, a:visited, a:active, a:hover {
-    color: var(--text-color);
+  @media only screen and (max-width: 400px) {
+    header {
+      background: var(--dark-bg);
+      grid-column: 2 / span 10;
+      font-size: 2.5rem;
+      padding: 2rem 1rem;
+      margin-bottom: var(--spacing);
+    }
   }
