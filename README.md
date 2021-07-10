@@ -2,4 +2,4 @@
 Portfolio Site made with Node and ThreeJS
 
 ### Build Instructions
-idk yet lmao
+npm run dev
