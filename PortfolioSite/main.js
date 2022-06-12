@@ -65,7 +65,7 @@ scene.background = background;
 
 // Avatar
 
-const kyleTexture = new THREE.TextureLoader().load('https://i.imgur.com/d3r9nKB.jpg');
+const kyleTexture = new THREE.TextureLoader().load('https://i.imgur.com/YJkqAl2.jpg');
 
 const kyle = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: kyleTexture }));
 
